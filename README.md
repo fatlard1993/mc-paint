@@ -2,6 +2,11 @@
 
 A server-side Fabric mod for painting by hand: set up an easel, put dye on its palette, stretch a canvas across it, and paint. Sign what you made and it comes off the easel as a painting you can hang on any wall.
 
+## Screenshots
+
+![A canvas standing painted on its easel: sky, sun, hills and water](easel.png)
+![The painting screen: the canvas in the middle, the palette and its paint bars, brushes one to four wide, and Sign](painting-screen.png)
+
 ## Painting
 
 1. **Craft an easel** and place it. It stands two blocks tall and turns to face you, to the nearest eighth of a turn, the way an armor stand does.
