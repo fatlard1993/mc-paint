@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "diagonal=false,facing=north,half=lower": {
+      "model": "mc-paint:block/easel_lower"
+    },
+    "diagonal=false,facing=north,half=upper": {
+      "model": "mc-paint:block/easel_upper"
+    },
+    "diagonal=true,facing=north,half=lower": {
+      "model": "mc-paint:block/easel_lower_diagonal"
+    },
+    "diagonal=true,facing=north,half=upper": {
+      "model": "mc-paint:block/easel_upper_diagonal"
+    },
+    "diagonal=false,facing=east,half=lower": {
+      "model": "mc-paint:block/easel_lower",
+      "y": 90
+    },
+    "diagonal=false,facing=east,half=upper": {
+      "model": "mc-paint:block/easel_upper",
+      "y": 90
+    },
+    "diagonal=true,facing=east,half=lower": {
+      "model": "mc-paint:block/easel_lower_diagonal",
+      "y": 90
+    },
+    "diagonal=true,facing=east,half=upper": {
+      "model": "mc-paint:block/easel_upper_diagonal",
+      "y": 90
+    },
+    "diagonal=false,facing=south,half=lower": {
+      "model": "mc-paint:block/easel_lower",
+      "y": 180
+    },
+    "diagonal=false,facing=south,half=upper": {
+      "model": "mc-paint:block/easel_upper",
+      "y": 180
+    },
+    "diagonal=true,facing=south,half=lower": {
+      "model": "mc-paint:block/easel_lower_diagonal",
+      "y": 180
+    },
+    "diagonal=true,facing=south,half=upper": {
+      "model": "mc-paint:block/easel_upper_diagonal",
+      "y": 180
+    },
+    "diagonal=false,facing=west,half=lower": {
+      "model": "mc-paint:block/easel_lower",
+      "y": 270
+    },
+    "diagonal=false,facing=west,half=upper": {
+      "model": "mc-paint:block/easel_upper",
+      "y": 270
+    },
+    "diagonal=true,facing=west,half=lower": {
+      "model": "mc-paint:block/easel_lower_diagonal",
+      "y": 270
+    },
+    "diagonal=true,facing=west,half=upper": {
+      "model": "mc-paint:block/easel_upper_diagonal",
+      "y": 270
+    }
+  }
+}

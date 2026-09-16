@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:stick",
+    "P": "minecraft:paper"
+  },
+  "pattern": [
+    "SPS",
+    "PPP",
+    "SPS"
+  ],
+  "result": {
+    "id": "mc-paint:canvas"
+  }
+}

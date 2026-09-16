@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "justfatlard.mc_paint.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ItemFrameAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
