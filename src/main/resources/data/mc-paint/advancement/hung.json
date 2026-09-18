@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:painting"
+    },
+    "title": "Hung in the Hall",
+    "description": "Paint a four by four, sign it, and put it on a wall",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "hung": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

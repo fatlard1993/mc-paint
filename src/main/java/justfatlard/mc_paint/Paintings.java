@@ -94,6 +94,7 @@ public final class Paintings {
 			level.addFreshEntity(frame);
 		}
 		level.playSound(null, tiles.get(0), SoundEvents.PAINTING_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
+		Awards.hung(player, painting.size());
 		context.getItemInHand().consume(1, player);
 		return InteractionResult.SUCCESS_SERVER;
 	}
