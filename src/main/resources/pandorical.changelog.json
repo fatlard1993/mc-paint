@@ -1,0 +1,15 @@
+{
+	"overview": [
+		"Easels, canvases and dye: paint pixel art by hand, cell by cell, with a vanilla client.",
+		"Sign what you made and it comes off the easel as a painting you can hang on any wall."
+	],
+	"versions": {
+		"1.0.1": [
+			"An advancement for painting, signing and hanging a full four by four canvas: two hundred and fifty-six pixels across, which nobody fills by accident."
+		],
+		"1.0.0": [
+			"Place an easel, rub dye into its palette, stretch a canvas one to sixteen blocks across it, and paint with a brush one to four wide.",
+			"Colours mix in quarter dyes and show the exact shade they will land on, and each one drains as you use it. Sign the canvas and it becomes a painting named for its title and its painter."
+		]
+	}
+}
