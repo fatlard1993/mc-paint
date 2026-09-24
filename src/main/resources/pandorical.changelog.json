@@ -5,11 +5,15 @@
 	],
 	"versions": {
 		"1.0.1": [
-			"An advancement for painting, signing and hanging a full four by four canvas: two hundred and fifty-six pixels across, which nobody fills by accident."
+			"An advancement for painting, signing and hanging a full four by four canvas.",
+			"Two hundred and fifty-six pixels across, which nobody fills by accident."
 		],
 		"1.0.0": [
-			"Place an easel, rub dye into its palette, stretch a canvas one to sixteen blocks across it, and paint with a brush one to four wide.",
-			"Colours mix in quarter dyes and show the exact shade they will land on, and each one drains as you use it. Sign the canvas and it becomes a painting named for its title and its painter."
+			"Place an easel, rub dye into its palette, and stretch a canvas one to sixteen blocks across.",
+			"Paint with a brush one to four wide.",
+			"Colours mix in quarter dyes and show the exact shade they will land on.",
+			"Each one drains as you use it.",
+			"Sign the canvas and it becomes a painting named for its title and its painter."
 		]
 	}
 }
