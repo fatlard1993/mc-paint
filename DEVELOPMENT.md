@@ -48,4 +48,4 @@ The canvas is Pandorical's `pixel_canvas` component. The client paints ahead of 
 
 Install server-side alongside its declared dependencies (see `fabric.mod.json`); connecting clients need only Pandorical. Version targets live in `gradle.properties` (Minecraft, loader, Fabric API) and `fabric.mod.json` (Java).
 
-`pixel_canvas` and `pictures()` are in every Pandorical from 15 on, the floor `fabric.mod.json` sets. An older client draws the painting screen's canvas as an empty panel and is never sent the pictures.
+`pixel_canvas` and `pictures()` are in every Pandorical the floor in `fabric.mod.json` allows. A client below it draws the painting screen's canvas as an empty panel and is never sent the pictures.
