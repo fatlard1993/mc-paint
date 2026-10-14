@@ -43,9 +43,9 @@ Right-click an easel holding a blank canvas with a signed painting to copy it. T
 
 ## Pandorical
 
-MC Paint runs server-side, and Pandorical 1.3.9 or later is required: the server will not load this mod without it. Pandorical syncs the easel and items to connecting clients, and draws the canvas size and painting screens.
+MC Paint runs server-side, and Pandorical 15 or later is required: the server will not load this mod without it. Pandorical syncs the easel and items to connecting clients, and draws the canvas size and painting screens.
 
-Clients need Pandorical 1.3.9 or later to put a canvas on an easel, to paint, and to see a canvas standing on an easel, which Pandorical draws. Paintings on walls are maps in invisible item frames, which every client already knows how to draw.
+Clients need Pandorical 15 or later to put a canvas on an easel, to paint, and to see a canvas standing on an easel, which Pandorical draws. Paintings on walls are maps in invisible item frames, which every client already knows how to draw.
 
 ## Development
 
