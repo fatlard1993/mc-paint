@@ -4,6 +4,9 @@
 		"Sign what you made and it comes off the easel as a painting you can hang on any wall."
 	],
 	"versions": {
+		"1.0.5": [
+			"Drop changelog notes for changes nothing in the game shows."
+		],
 		"1.0.2": [
 			"An advancement for painting, signing and hanging a full four by four canvas.",
 			"Two hundred and fifty-six pixels across, which nobody fills by accident."
