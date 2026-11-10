@@ -4,19 +4,9 @@
 		"Sign what you made and it comes off the easel as a painting you can hang on any wall."
 	],
 	"versions": {
-		"1.0.4": [
-			"Names Block Tip as an optional companion, so launchers and download pages know they go together.",
-			"Its tests draw a small window unless taking pictures, which runs them faster; nothing in play changes."
-		],
-		"1.0.3": [
-			"Mod Menu's Donate button leads to sponsoring the author on GitHub. Nothing in play changes."
-		],
 		"1.0.2": [
 			"An advancement for painting, signing and hanging a full four by four canvas.",
 			"Two hundred and fifty-six pixels across, which nobody fills by accident."
-		],
-		"1.0.1": [
-			"Version bump only; nothing changed."
 		],
 		"1.0.0": [
 			"Place an easel, rub dye into its palette, and stretch a canvas one to sixteen blocks across.",
