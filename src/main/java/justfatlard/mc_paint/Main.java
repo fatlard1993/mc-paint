@@ -129,7 +129,11 @@ public class Main implements ModInitializer {
 
 		ServerEntityEvents.ENTITY_LOAD.register((entity, level) -> {
 			if (Paintings.isPainting(entity)) FRAMES.add((ItemFrame) entity);
-			else if (Paintings.isEaselBoard(entity)) level.getServer().execute(() -> Paintings.easelLoaded(level, entity));
+			// After the load rather than inside it: settling the easel discards and spawns entities,
+			// which the chunk still loading them is in no state for. Scheduled, since execute on the
+			// server thread would run it right here.
+			else if (Paintings.isEaselBoard(entity)) level.getServer().schedule(new net.minecraft.server.TickTask(
+				level.getServer().getTickCount(), () -> Paintings.easelLoaded(level, entity)));
 		});
 		ServerEntityEvents.ENTITY_UNLOAD.register((entity, level) -> {
 			if (entity instanceof ItemFrame frame) FRAMES.remove(frame);
