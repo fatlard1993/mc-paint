@@ -4,6 +4,10 @@
 		"Sign what you made and it comes off the easel as a painting you can hang on any wall."
 	],
 	"versions": {
+		"1.0.6": [
+			"An easel is settled after its board has loaded, not while it loads.",
+			"A demo to play in PvP Dimensions' onboarding."
+		],
 		"1.0.5": [
 			"Drop changelog notes for changes nothing in the game shows."
 		],
