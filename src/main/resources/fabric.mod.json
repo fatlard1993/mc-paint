@@ -3,7 +3,7 @@
 	"id": "mc-paint",
 	"version": "${version}",
 	"name": "MC Paint",
-	"description": "Easels, canvases and dye palettes: paint pixel art by hand, sign it, and hang it on the wall (server-side with Pandorical)",
+	"description": "Easels and canvases to paint pixel art by hand and hang it up",
 	"authors": [
 		"justfatlard"
 	],
